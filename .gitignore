@@ -1,1 +1,5 @@
 Smart_TV/.vscode/settings.json
+Smart_TV/src/Escopo.java
+Smart_TV/src/PalavrasReservadas.java
+Smart_TV/src/JavaDoc.java
+Smart_TV/src/Static.java

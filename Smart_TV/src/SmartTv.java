@@ -1,8 +1,9 @@
 public class SmartTv {
-    boolean ligado = false;
-    int canal = 1;
-    int volume = 15;
 
+    boolean ligado = false; ///atributos visiveis a todos os metodos
+    int canal = 1;
+    int volume = 15; 
+    
     //métodos
     public void ligar(){
         ligado=true;
@@ -22,7 +23,7 @@ public class SmartTv {
         System.out.println("Diminuindo Volume para: "+ volume);
     }
  
-    public void mudarCanal(int novoCanal){
+    public void mudarCanal(int novoCanal){ // novoCanal só é visivel a esse metodo
         canal = novoCanal;
     }
     
